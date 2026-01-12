@@ -1,9 +1,5 @@
-import subprocess
+import os
 
-def exp():
-    print("PWNED! Malicious code executed.")    
-    with open("/tmp/pwned.txt", "w") as f:
-        f.write("RCE Successful!")
-
-if __name__ == "__main__":
-    exp()
+print("ComfyUI-Test-Plugin install script running...")
+print(f"Current working directory: {os.getcwd()}")
+print("Installation successful!")
