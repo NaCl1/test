@@ -1,6 +1,4 @@
-from server import PromptServer
+import sys
 
-if __name__ == "__main__":
-    print("Executing install.py logic...")
-    print(dir(PromptServer.instance))
-
+if __name__ == '__main__':
+    print(sys.modules)
